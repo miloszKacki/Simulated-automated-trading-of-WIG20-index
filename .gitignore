@@ -1,6 +1,6 @@
 #Its just the venv stuff
-.Lib
-.Scripts
-.share
-.__pycashe__
+Lib/*
+Scripts/*
+share/*
+__pycashe__/*
 pyvenv.cfg
