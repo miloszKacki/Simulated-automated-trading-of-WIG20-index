@@ -2,5 +2,5 @@
 Lib/*
 Scripts/*
 share/*
-__pycashe__/*
+__pycache__/*
 pyvenv.cfg
