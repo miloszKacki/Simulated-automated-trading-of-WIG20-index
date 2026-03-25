@@ -14,7 +14,7 @@ MACD and Signal are trade indicators, that are supposed to reveal shifts in the 
 
 Exponential moving averages are a type of Generalized means, where weights of earlier prices are decreased exponentially.
 
-The wallet is set to buy when the MACD indicator overtakes Signal in value, and sell when the Signal overtakes the MACD
+The wallet is set to buy when the MACD indicator overtakes Signal in value and sell when the Signal overtakes the MACD
 
 More info on MACD, and how It's calculated can be found on [wikipedia](https://en.wikipedia.org/wiki/MACD)
 
