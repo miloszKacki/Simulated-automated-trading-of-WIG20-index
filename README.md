@@ -9,7 +9,8 @@ This project was an assignment for the Numerical Methods class on the Gdańsk Un
 
 MACD and Signal are trade indicators, that are supposed to reveal shifts in the strrength and direction of a stock's trend. They are calculated using Exponential moving averages(EMAs).
 
-### MACD = EMA(12) - EMA(26), Signal = EMA(19)
+**MACD = EMA(12) - EMA(26)**,
+**Signal = EMA(19)**
 
 Exponential moving averages are a type of Generalized means, where weights of earlier prices are decreased exponentially.
 
