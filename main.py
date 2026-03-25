@@ -57,19 +57,25 @@ def Plot_Trends(trends,colors):
         plt.plot(trends[i],color=colors[i])
 
 def Plot_wig20(wig20_values_daily):
-    plt.title("Wartości wig20 w czasie")
+    #plt.title("Wartości wig20 w czasie")
+    plt.title("wig20 value in time")
     plt.plot(wig20_values_daily, color="black")
-    plt.ylabel("Wartość")
-    plt.xlabel("Dni od początku obserwowanego okresu")
+    #plt.ylabel("Wartość")
+    plt.ylabel("Value")
+#    plt.xlabel("Dni od początku obserwowanego okresu")
+    plt.xlabel("Days since the start of the observation process")
     plt.show()
     plt.cla()
 
 def Plot_macd_vs_signal(signal,MACD,crossings):
-    plt.title("Wskazniki MACD vs SIGNAL")
+#    plt.title("Wskazniki MACD vs SIGNAL")
+    plt.title("Indicators: MACD vs SIGNAL")
     plt.plot(signal, color="blue")
     plt.plot(MACD, color="purple")
-    plt.ylabel("Wartość wskaźnika")
-    plt.xlabel("Dni od początku obserwowanego okresu")
+#    plt.ylabel("Wartość wskaźnika")
+    plt.ylabel("Indicator value")
+    #plt.xlabel("Dni od początku obserwowanego okresu")
+    plt.xlabel("Days since the start of the observation process")
 
     for i in range(len(MACD)):
         if (crossings[i] == 1):
@@ -82,10 +88,12 @@ def Plot_macd_vs_signal(signal,MACD,crossings):
 
 def Plot_wig20_with_transactions(crossings,wig20):
 
-    plt.title("Wartości wig20 zestawione z tranzakcjami")
+    #plt.title("Wartości wig20 zestawione z tranzakcjami")
+    plt.title("wig20 values and transactions")
     plt.plot(wig20, color="black")
-    plt.ylabel("Wartość")
-    plt.xlabel("Dni od początku obserwowanego okresu")
+    plt.ylabel("Value")
+    #plt.xlabel("Dni od początku obserwowanego okresu")
+    plt.xlabel("Days since the start of the observation process")
 
     for i in range(len(wig20)):
         if (crossings[i] == 1):
@@ -106,9 +114,12 @@ def Plot_partial_macd_vs_signal(sigal,MACD,crossings,wig20,start,end):
     Plot_wig20_with_transactions(part_of_crossings,part_of_wig20)
 
 def Plot_MACD_and_wig20(wig20,networths):
-    plt.title("Historia wartości portfela w symulacji vs wartość wig20")
-    plt.ylabel("Wartości w jednostkach pieniędzy")
-    plt.xlabel("Dni od początku obserwowanego okresu")
+    #plt.title("Historia wartości portfela w symulacji vs wartość wig20")
+    plt.title("Wallet value history vs wig20 value")
+    #plt.ylabel("Wartości w jednostkach pieniędzy")
+    plt.ylabel("Values in money units")
+    #plt.xlabel("Dni od początku obserwowanego okresu")
+    plt.xlabel("Days since the start of the observation process")
 
     plt.plot(networths, color="green")
     plt.plot(wig20,color="black")
@@ -116,15 +127,17 @@ def Plot_MACD_and_wig20(wig20,networths):
     plt.show()
     plt.cla()
 
-
 def Analyze_sim_history(networth_history,trade_history):
 
-    plt.title("Historia wartości portfela w symulacji")
+    #plt.title("Historia wartości portfela w symulacji")
+    plt.title("Wallet value history")
 
     plt.plot(test_sim.networth_history, color="green")
 
-    plt.ylabel("Wartość portfela")
-    plt.xlabel("Dni od początku obserwowanego okresu")
+    #plt.ylabel("Wartość portfela")
+    plt.ylabel("Wallet value")
+    #plt.xlabel("Dni od początku obserwowanego okresu")
+    plt.xlabel("Days since the start of the observation process")
 
     plt.show()
     plt.cla()
