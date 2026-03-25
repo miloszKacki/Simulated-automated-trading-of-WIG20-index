@@ -1,4 +1,4 @@
-## Simulated automatic trading of WIG20
+## Simulated automated trading of WIG20
 
 This project is a simulation of Automated trading, based off of the MACD and Signal trade indicators.
 
