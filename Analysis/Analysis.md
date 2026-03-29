@@ -7,8 +7,7 @@ This data was obtained from the website [stooq.com](https://stooq.com/).
 
 The libraries numpy, pandas, and matplotlib were used to create the charts for this project.
 
-## The analysis of usefulness of the MACD and Signal trading indicators relationship as a
-determining factor for buying and selling stocks.
+## The analysis of usefulness of the MACD and Signal trading indicators.
 
 ### Charted data
 
