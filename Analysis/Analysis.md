@@ -12,16 +12,16 @@ determining factor for buying and selling stocks.
 
 ### Charted data
 
-[Chart 3.1 - WIG20 index values over time](charts/Wig20.png)
+![Chart 3.1 - WIG20 index values over time](charts/Wig20.png)
 *Chart 3.1 - WIG20 index values over time*
 
-[Chart 3.2 - MACD and Signal Indicators](charts/Macd_vs_signal.png)
+![Chart 3.2 - MACD and Signal Indicators](charts/Macd_vs_signal.png)
 *Chart 3.2 - MACD and Signal Indicators*
 
 Chart 3.1 presents the WIG20 Index values extracted from the .csv file mentioned in the introduction. All calculations, charts, and the simulation contained in this report are entirely based on this data.
 Chart 3.2 presents the values of the MACD indicator – in purple – and the signal indicator – in blue. Additionally, the chart marks the moments of purchase and sale, in green and red respectively.
 
-[3.3 - WIG20 with transactions](charts/WIG20_transactions.png)
+![3.3 - WIG20 with transactions](charts/WIG20_transactions.png)
 *Chart 3.3 - WIG20 with transactions*
 
 Chart 3.3 contains both the WIG20 values and the transactions determined and marked on the chart in a manner analogous to Chart 3.2. Observing Chart 3.3, it can be noted that among the transactions executed during the largest fluctuations, most are profitable purchases and sales. During periods characterized by smaller fluctuations, most transactions result in losses.
@@ -30,9 +30,9 @@ Chart 3.3 contains both the WIG20 values and the transactions determined and mar
 
  MACD and Signal | WIG20 with trades
 ----: | :----
-[4.1 - MACD and Signal indicators during days 200-300](charts/Partial_MACD_Signal_1.png) | [4.2 - WIG20 with transactions during days 200-300](charts/Partial_WIG20_1.png)
+![4.1 - MACD and Signal indicators during days 200-300](charts/Partial_MACD_Signal_1.png) | ![4.2 - WIG20 with transactions during days 200-300](charts/Partial_WIG20_1.png)
 *Chart 4.1 - MACD and Signal indicators during days 200-300* | *Chart 4.2 - WIG20 with transactions during days 200-300*
-[4.3 - MACD and Signal indicators during days 600-675](charts/Partial_MACD_Signal_2.png) | [4.4 - WIG20 with transactions during days 600-675](charts/Partial_WIG20_2.png)
+![4.3 - MACD and Signal indicators during days 600-675](charts/Partial_MACD_Signal_2.png) | ![4.4 - WIG20 with transactions during days 600-675](charts/Partial_WIG20_2.png)
 *Chart 4.3 - MACD and Signal indicators during days 600-675* | *Chart 4.4 - WIG20 with transactions during days 600-675*
 
 The relationship between the MACD and signal indicators is intended to help identify trends in the value changes of the measured instruments. In the pairs of charts above, it can be observed that changes in the WIG20 value are not predicted by these indicators. This may result from the low frequency of the analyzed data. The data used for the calculations are the index values at daily market closing times. It is possible that the rates of price changes, which the indicators are meant to show, are not visible in single data points selected cyclically once a day and would be better reflected by the indicator values if they were placed in the context of WIG20 values from the rest of the trading day.
