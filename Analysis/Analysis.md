@@ -26,9 +26,11 @@ determining factor for buying and selling stocks.
 
 
 
+|Chart 3.1 - WIG20 index values over time|Chart 3.2 - MACD and SIGNAL Indicators|
 
+|:---------------------------------------:|:---------------------------------------:|
 
 |\[Chart 3.1 - WIG20 index values over time](charts/Wig20.png)|\[Chart 3.2 - MACD and SIGNAL Indicators](charts/Macd\_vs\_signal.png)|
 
-|Chart 3.1 - WIG20 index values over time|Chart 3.2 - MACD and SIGNAL Indicators|
+
 
