@@ -104,6 +104,7 @@ def Plot_wig20_with_transactions(crossings,wig20):
     plt.show()
     plt.cla()
 
+
 def Plot_partial_macd_vs_signal(sigal,MACD,crossings,wig20,start,end):
     part_of_signal = signal[start:end]
     part_of_MACD = MACD[start:end]
@@ -175,20 +176,18 @@ signal = Create_ema_array(MACD,9)
 crossings = Find_datas_crossings_by_id(signal, MACD)
 
 
-#test_sim = sim.Simulation(wig20_values_daily,signal,MACD,crossings,26)
-#test_sim.Simulate()
+test_sim = sim.Simulation(wig20_values_daily,signal,MACD,crossings,26)
+test_sim.Simulate()
 
 #Plot_MACD_and_wig20(wig20_values_daily,test_sim.networth_history)
 
 #Plot_wig20_with_transactions(crossings,wig20_values_daily)
 
-Plot_macd_vs_signal(signal,MACD,crossings)
-Plot_wig20(wig20_values_daily)
+#Plot_macd_vs_signal(signal,MACD,crossings)
+#Plot_wig20(wig20_values_daily)
 
 
 #Plot_partial_macd_vs_signal(signal,MACD,crossings,wig20_values_daily,200,300)
 #Plot_partial_macd_vs_signal(signal,MACD,crossings,wig20_values_daily,600,675)
 
 #Analyze_sim_history(test_sim.networth_history,test_sim.trade_history)
-
-#print(wig20_values_daily)
