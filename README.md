@@ -1,7 +1,7 @@
 ## Simulated automated trading of WIG20 using MACD indicator
 
 This project is a simulation of Automated trading, based off of the MACD and Signal trade indicators.
-The behaviour and performance of the automated wallet was analysed. The results are in a different .md [file](TODO)
+The behaviour and performance of the automated wallet was analysed. The results are in a different .md [file](Analysis/Analysis.md)
 
 This project was an assignment for the Numerical Methods class on the Gdańsk University of Technology.
 

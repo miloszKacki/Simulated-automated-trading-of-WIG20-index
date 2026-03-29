@@ -52,7 +52,7 @@ The final portfolio value is 2,649,314 monetary units, yielding a profit of 644,
 For comparison, buying 1,000 units of the WIG20 on March 17, 2021, at a price of 1,939.01 monetary units per index unit and selling them on March 14, 2025, at a price of 2,754.38 would have yielded a profit of 815,370 monetary units. This means that by choosing this strategy, the portfolio lost 171,156 (~21%) of potential profits.
 
 1 chart
-[5.1 Daily valuation of the investment portfolio based on the WIG20 index price for that day](charts/Wallet_history.png)
+![5.1 Daily valuation of the investment portfolio based on the WIG20 index price for that day](charts/Wallet_history.png)
 *Chart 5.1 Daily valuation of the investment portfolio based on the WIG20 index price for that day*
 
 Interestingly, despite frequent transactions, the portfolio's value appears to depend on the value of the index itself. This is because the value of the held assets naturally follows the price trends of those assets. The portfolio value can therefore only rise and fall with the WIG20 price, or maintain a constant value by holding only cash. In the case of the aforementioned inaccuracies resulting from low data sampling frequency, the portfolio value will follow the trends of the observed index.
